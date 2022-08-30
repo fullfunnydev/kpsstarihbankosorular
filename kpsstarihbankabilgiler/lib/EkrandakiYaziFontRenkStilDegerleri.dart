@@ -26,32 +26,32 @@ class EkrandakiYaziFontRenkStillDegerleri {
     color: Colors.white,
     fontSize: 28.sp,
     fontWeight: FontWeight.bold,
-    fontStyle: FontStyle.italic,
+
   );
   static var cevapYaziStil = GoogleFonts.oswald(
     color: Colors.teal,
-    fontSize: 23.sp,
+    fontSize: 25.sp,
     fontWeight: FontWeight.bold,
-    fontStyle: FontStyle.italic,
+
   );
   static var acilirMenuYaziStili = GoogleFonts.play(
     color: Colors.orange,
     fontSize: 15.sp,
     fontWeight: FontWeight.bold,
-    fontStyle: FontStyle.italic,
+
   );
   static var alertDialogYaziStili = GoogleFonts.play(
     //color: Color(0xff009900),
-    color: Colors.yellow,
+    color: Colors.black,
     fontSize: 20.sp,
     fontWeight: FontWeight.bold,
-    fontStyle: FontStyle.italic,
+
   );
   static var alertDialogCevapYaziStili = GoogleFonts.play(
     //color: Color(0xff009900),
     color: Colors.orange,
     fontSize: 20.sp,
     fontWeight: FontWeight.bold,
-    fontStyle: FontStyle.italic,
+
   );
 }

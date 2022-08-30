@@ -7,7 +7,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kpsstarihbankabilgiler/EkrandakiYaziFontRenkStilDegerleri.dart';
 import 'package:kpsstarihbankabilgiler/appBarKolonu.dart';
 import 'dart:async';
-
 import 'package:kpsstarihbankabilgiler/sorucevapkolon.dart';
 import 'package:kpsstarihbankabilgiler/tarihbilgiler.dart';
 
@@ -51,6 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     });
   }
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -133,12 +134,12 @@ class _MyHomePageState extends State<MyHomePage> {
                                             )),
                                       ),
                                       dismissOnTouchOutside: false,
-                                      btnOkColor: Colors.red,
-                                      dialogBackgroundColor: Colors.black,
+                                      btnOkColor: Colors.green,
+                                      dialogBackgroundColor: Colors.white,
                                       btnOkText: 'KAPAT',
-                                      btnOkIcon: Icons.add_task_outlined,
+                                      btnOkIcon: Icons.cancel_sharp,
                                       borderSide: BorderSide(
-                                          color: Colors.pink, width: 2),
+                                          color: Colors.red, width: 3),
                                       btnOkOnPress: () {},
                                     )..show();
                                   },
@@ -176,7 +177,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
 
 /*
  showDialog(
